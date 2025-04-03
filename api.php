@@ -1,7 +1,7 @@
 <?php
 include 'includes/db_connect.php';
 
-// Handle PHP requests
+
 if (isset($_GET['action'])) {
     header('Content-Type: application/json');
     switch ($_GET['action']) {

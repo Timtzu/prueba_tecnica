@@ -3,7 +3,7 @@ function incrementValue(fieldId, minValue = 0, validateCallback = null, addition
     let value = parseInt(input.value) || minValue;
     input.value = value + 1;
     if (validateCallback && !validateCallback(input.value, fieldId.includes('Stock') ? 'Stock' : 'Cantidad')) {
-        input.value = value; // Revert if validation fails
+        input.value = value; 
         return;
     }
     if (additionalCallback) additionalCallback();
@@ -15,7 +15,7 @@ function decrementValue(fieldId, minValue = 0, validateCallback = null, addition
     if (value > minValue) {
         input.value = value - 1;
         if (validateCallback && !validateCallback(input.value, fieldId.includes('Stock') ? 'Stock' : 'Cantidad')) {
-            input.value = value; // Revert if validation fails
+            input.value = value;
             return;
         }
         if (additionalCallback) additionalCallback();

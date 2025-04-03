@@ -12,7 +12,7 @@
 <div class="container mt-5">
         <h1 class="mb-4">Gestión de Productos y Ventas</h1>
 
-        <!-- Product Section -->
+        <!-- Seccion de Producto -->
         <h3>Productos</h3>
         <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addProductModal">Agregar Producto</button>
         <table class="table table-striped" id="productsTable">
@@ -29,11 +29,11 @@
             <tbody></tbody>
         </table>
 
-        <!-- Record Sale Section -->
+        <!-- seccion de registro de venta -->
         <h3>Registrar Venta</h3>
         <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#recordSaleModal">Registrar Venta</button>
 
-        <!-- Sales History Section -->
+        <!-- Seccion de Historial de Ventas -->
         <h3>Historial de Ventas</h3>
         <table class="table table-striped" id="salesTable">
             <thead>
@@ -48,7 +48,7 @@
         </table>
     </div>
 
-    <!-- Add Product Modal -->
+    <!-- Añadir producto Modal -->
     <div class="modal fade" id="addProductModal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -82,7 +82,7 @@
         </div>
     </div>
 
-    <!-- Edit Product Modal -->
+    <!-- Editar producto  Modal -->
     <div class="modal fade" id="editProductModal" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -117,7 +117,7 @@
         </div>
     </div>
 
-    <!-- Record Sale Modal -->
+    <!-- Registro de Venta Modal -->
     <div class="modal fade" id="recordSaleModal" tabindex="-1">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -150,7 +150,7 @@
         </div>
     </div>
 
-    <!-- Sale Details Modal -->
+    <!-- Detalles de Venta  Modal -->
     <div class="modal fade" id="saleDetailsModal" tabindex="-1">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
